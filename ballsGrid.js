@@ -1,5 +1,3 @@
-var gridBalls = [];
-
 function getNextPosition(ball, canvasWidth, canvasHeight) {
     var intialLeft = ball.left;
     var initialTop = ball.top;
@@ -51,6 +49,7 @@ function isBallThere(left, top, ballSize) {
 }
 
 function ballsGrid(sizes, canvasWidth, canvasHeight) {
+    var gridBalls = [];
     let previousBall = null;
     let counter = 0;
 
